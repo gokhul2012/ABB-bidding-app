@@ -1,0 +1,165 @@
+
+.page-container {
+  min-height: 100vh;
+  background-color: #fdf2f8;
+}
+
+.page-header {
+  background-color: #ffe4e6;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #1e3a8a;
+}
+
+.navigation ul {
+  display: flex;
+  list-style: none;
+  gap: 16px;
+}
+
+.user-actions {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.login-button {
+  color: #1e3a8a;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.get-started-button {
+  background-color: #1e3a8a;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+
+
+.main-content {
+  padding: 32px;
+}
+
+.hero-section {
+  h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+
+  p {
+    font-size: 1.25rem;
+    margin-top: 10px;
+    color: #4a5568;
+  }
+
+  .watch-video-button {
+    display: inline-flex;
+    align-items: center;
+    background-color: #1e3a8a;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 9999px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+}
+
+.auction-section {
+  margin-top: 32px;
+
+  h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 16px;
+  }
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  margin-bottom: 16px;
+
+  input {
+    margin-left: 8px;
+    padding: 8px;
+    flex-grow: 1;
+    border: none;
+  }
+}
+
+.auction-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 16px;
+}
+
+.auction-card {
+  background-color: white;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+  h3 {
+    font-size: 1.25rem;
+    margin-bottom: 8px;
+  }
+
+  .bid-details {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+
+    span {
+      font-size: 0.875rem;
+    }
+  }
+
+  .bid-button {
+    display: block;
+    width: 100%;
+    background-color: #ef4444;
+    color: white;
+    padding: 8px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+}
+
+.footer {
+  background-color: #1e3a8a;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  margin-top: 32px;
+}
+.login-button {
+    background-color: #2196F3;
+    color: white;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+  }
